@@ -20,7 +20,7 @@ public class FrowerGrowBall : MonoBehaviour
     public void Duplicate()
     {
         GameObject go = Instantiate(gameObject, transform.position, transform.rotation, transform.parent);
-        go.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        go.GetComponent<Rigidbody>().linearVelocity = Vector3.zero;
         go.GetComponent<Outline>().enabled = false;
         
         

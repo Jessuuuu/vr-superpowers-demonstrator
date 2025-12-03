@@ -17,8 +17,8 @@ public class VRMovementFlying : MonoBehaviour
     public CharacterController CharacterController;
     public Transform Direction;
 
-    public XRRayInteractor selectorDistance;
-    public XRDirectInteractor selectorGrab;
+    public UnityEngine.XR.Interaction.Toolkit.Interactors.XRRayInteractor selectorDistance;
+    public UnityEngine.XR.Interaction.Toolkit.Interactors.XRDirectInteractor selectorGrab;
 
     public VRHandModelSwitch[] handSwitcher;
 
